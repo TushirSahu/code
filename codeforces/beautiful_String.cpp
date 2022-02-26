@@ -27,7 +27,7 @@ while(t--){
                    break;
                }
            }
-           
+           continue;
        }
        
     }
