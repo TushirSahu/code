@@ -1,0 +1,1 @@
+{"name":"Local: three_swimmers","url":"/home/tushir/coding/codeforces/three_swimmers.cpp","tests":[{"id":1645290085005,"input":"4\n9 5 4 8\n2 6 10 9\n10 2 5 10\n10 9 9 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/three_swimmers.cpp","group":"local","local":true}

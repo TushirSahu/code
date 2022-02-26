@@ -1,0 +1,1 @@
+{"name":"Local: balanced_substring","url":"/home/tushir/coding/codeforces/balanced_substring.cpp","tests":[{"id":1645463667857,"input":"4\n1\na\n6\nabbaba\n6\nabbaba\n9\nbabbabbaa","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/balanced_substring.cpp","group":"local","local":true}

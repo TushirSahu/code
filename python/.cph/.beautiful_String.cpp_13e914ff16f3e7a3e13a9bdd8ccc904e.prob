@@ -1,0 +1,1 @@
+{"name":"Local: beautiful_String","url":"/home/tushir/coding/python/beautiful_String.cpp","tests":[{"id":1645850238260,"input":"3\na???cb\na??bbc\na?b?c","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/python/beautiful_String.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: doors_keys","url":"/home/tushir/coding/codeforces/doors_keys.cpp","tests":[{"id":1645692809670,"input":"4\nrgbBRG\nRgbrBG\nbBrRgG\nrgRGBb","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/doors_keys.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: tmt","url":"/home/tushir/coding/codeforces/tmt.cpp","tests":[{"id":1645176588170,"input":"5\n3\nTMT\n3\nMTT\n6\nTMTMTT\n6\nTMTTTT\n6\nTTMMTT","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/tmt.cpp","group":"local","local":true}

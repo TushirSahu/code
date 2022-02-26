@@ -1,0 +1,1 @@
+{"name":"Local: binary_basic","url":"c:\\Users\\tushir sahu\\OneDrive\\Desktop\\coding\\codechef\\binary_basic.cpp","tests":[{"id":1643974794680,"input":"2\n3 0\n110\n6 1\n101100","output":"NO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\tushir sahu\\OneDrive\\Desktop\\coding\\codechef\\binary_basic.cpp","group":"local","local":true}

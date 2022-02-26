@@ -1,0 +1,1 @@
+{"name":"Local: three_indices","url":"c:\\Users\\tushir sahu\\OneDrive\\Desktop\\coding\\codeforces\\three_indices.cpp","tests":[{"id":1644302439191,"input":"1\n4\n2 1 4 3","output":"YES\n2 3 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\tushir sahu\\OneDrive\\Desktop\\coding\\codeforces\\three_indices.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: perMEX","url":"/home/tushir/coding/codechef/perMEX.cpp","tests":[{"id":1645606668859,"input":"4\n2\n111\n5\n110100\n5\n110101\n7\n11100111","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codechef/perMEX.cpp","group":"local","local":true}
