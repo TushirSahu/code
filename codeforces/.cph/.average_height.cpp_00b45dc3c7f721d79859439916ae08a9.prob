@@ -1,0 +1,1 @@
+{"name":"Local: average_height","url":"/home/tushir/coding/codeforces/average_height.cpp","tests":[{"id":1646028108315,"input":"4\n3\n1 1 2\n3\n1 1 1\n8\n10 9 13 15 3 16 9 13\n2\n18 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/average_height.cpp","group":"local","local":true}
