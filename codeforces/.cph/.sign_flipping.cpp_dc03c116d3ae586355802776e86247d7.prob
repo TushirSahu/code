@@ -1,0 +1,1 @@
+{"name":"Local: sign_flipping","url":"/home/tushir/coding/codeforces/sign_flipping.cpp","tests":[{"id":1646220399231,"input":"5\n3\n-2 4 3\n5\n1 1 1 1 1\n5\n-2 4 7 -6 4\n9\n9 7 -4 -2 1 -3 9 -4 -5\n9\n-4 1 9 4 8 9 5 1 -9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/sign_flipping.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: distance_axis","url":"/home/tushir/coding/codeforces/distance_axis.cpp","tests":[{"id":1646218293706,"input":"6\n4 0\n5 8\n0 1000000\n0 0\n1 0\n1000000 1000000","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/distance_axis.cpp","group":"local","local":true}
