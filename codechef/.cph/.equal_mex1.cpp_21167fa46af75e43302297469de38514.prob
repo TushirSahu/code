@@ -1,0 +1,1 @@
+{"name":"Local: equal_mex1","url":"/home/tushir/coding/codechef/equal_mex1.cpp","tests":[{"id":1646498039364,"input":"2\n4\n0 1 1 0\n6\n0 0 3 1 2 0\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codechef/equal_mex1.cpp","group":"local","local":true}

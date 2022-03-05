@@ -18,12 +18,12 @@ while(t--){
    int x=1;
    if(n==1) cout<<1<<nl;
    else{
-   for (int i = 0; i < n-1; i++)
+   for (int i = 0; i < n-1; i+=2)
    {
        a[i]=x;
        a[i+1]=2*x;
        x+=2;
-       i++; 
+       
    }
    
    if(n%2!=0) a[n-1]=a[n-2]+1;
@@ -33,9 +33,6 @@ while(t--){
    }
    cout<<nl;
    }
-   
-   
-   
    
 }
 return 0;
