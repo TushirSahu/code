@@ -1,0 +1,1 @@
+{"name":"Local: wordle","url":"/home/tushir/coding/codechef/wordle.cpp","tests":[{"id":1647014353617,"input":"3\nABCDE\nEDCBA\nROUND\nRINGS\nSTART\nSTUNT","output":"BBGBB\nGBBBB\nGGBBG"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codechef/wordle.cpp","group":"local","local":true}

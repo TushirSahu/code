@@ -1,0 +1,1 @@
+{"name":"Local: permutation_foregey","url":"/home/tushir/coding/codeforces/permutation_foregey.cpp","tests":[{"id":1647248826149,"input":"3\n2\n1 2\n6\n2 1 6 5 4 3\n5\n2 4 3 1 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/permutation_foregey.cpp","group":"local","local":true}

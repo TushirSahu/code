@@ -12,29 +12,22 @@ cin.tie(NULL);
 int t;
 cin>>t;
 while(t--){
-   int n;
-   cin>>n;
-   int a[n];
-   int x=1;
-   if(n==1) cout<<1<<nl;
-   else{
-       
-   for (int i = 0; i < n-1; i+=2)
-   {
-       a[i]=x;
-       a[i+1]=2*x;
-       x+=2;
-       
-   }
-   
-   if(n%2!=0) a[n-1]=a[n-2]+1;
+    int n;
+    cin>>n;
+    string s;
+    cin>>s;
+    string t=s;
+    int l=s.size();
+   int count1=0,count0=0;
    for (int i = 0; i < n; i++)
    {
-       cout<<a[i]<<" ";
+       if(s[i]=='0') count0++;
+       else count1++;
    }
-   cout<<nl;
-   }
-   
+   if(n==1) cout<<"YES\n";
+   else if(count1==1 && count0==1 && n==2  ) cout<<"YES\n"<<nl;
+   else  cout<<"NO\n";
+
 }
 return 0;
 }

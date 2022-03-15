@@ -1,0 +1,1 @@
+{"name":"Local: missing_biagram","url":"/home/tushir/coding/codeforces/missing_biagram.cpp","tests":[{"id":1646820803748,"input":"4\n7\nab bb ba aa ba\n7\nab ba aa ab ba\n3\naa\n5\nbb ab bb","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/missing_biagram.cpp","group":"local","local":true}

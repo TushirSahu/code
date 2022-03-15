@@ -1,0 +1,1 @@
+{"name":"Local: beats","url":"/home/tushir/coding/codeforces/beats.cpp","tests":[{"id":1646644807495,"input":"1\n.135\n1247\n3468\n5789\n\n","output":""},{"id":1646645638157,"input":"5\n9999\n9999\n9999\n9999","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/beats.cpp","group":"local","local":true}

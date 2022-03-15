@@ -1,0 +1,1 @@
+{"name":"Local: substring_is_substring","url":"/home/tushir/coding/codechef/substring_is_substring.cpp","tests":[{"id":1647022121894,"input":"2\nabcdab\naaa","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codechef/substring_is_substring.cpp","group":"local","local":true}

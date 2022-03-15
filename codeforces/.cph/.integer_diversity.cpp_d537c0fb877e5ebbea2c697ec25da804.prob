@@ -1,0 +1,1 @@
+{"name":"Local: integer_diversity","url":"/home/tushir/coding/codeforces/integer_diversity.cpp","tests":[{"id":1646719164097,"input":"3\n4\n1 1 2 2\n3\n1 2 3\n2\n0 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/integer_diversity.cpp","group":"local","local":true}

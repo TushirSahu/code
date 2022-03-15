@@ -1,0 +1,1 @@
+{"name":"Local: replacing_elements","url":"/home/tushir/coding/codeforces/replacing_elements.cpp","tests":[{"id":1646887574413,"input":"3\n5 3\n2 3 2 5 4\n3 4\n2 4 4\n5 4\n2 1 5 3 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/replacing_elements.cpp","group":"local","local":true}
