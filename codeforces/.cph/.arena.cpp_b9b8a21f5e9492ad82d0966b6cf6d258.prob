@@ -1,0 +1,1 @@
+{"name":"Local: arena","url":"/home/tushir/coding/codeforces/arena.cpp","tests":[{"id":1647883606947,"input":"3\n3\n3 2 2\n2\n5 5\n4\n1 3 3 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/arena.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: balanced_reversal","url":"/home/tushir/coding/codechef/balanced_reversal.cpp","tests":[{"id":1647441398113,"input":"2\n5\n01100\n4\n0000\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codechef/balanced_reversal.cpp","group":"local","local":true}

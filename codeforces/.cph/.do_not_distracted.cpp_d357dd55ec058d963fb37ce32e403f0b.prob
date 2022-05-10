@@ -1,0 +1,1 @@
+{"name":"Local: do_not_distracted","url":"/home/tushir/coding/codeforces/do_not_distracted.cpp","tests":[{"id":1647926077107,"input":"5\n3\nABA\n11\nDDBBCCCBBEZ\n7\nFFGZZZY\n1\nZ\n2\nAB\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/do_not_distracted.cpp","group":"local","local":true}

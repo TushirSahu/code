@@ -1,0 +1,1 @@
+{"name":"Local: equal_or_not","url":"/home/tushir/coding/codeforces/equal_or_not.cpp","tests":[{"id":1648026955921,"input":"4\nEEE\nEN\nENNEENE\nNENN\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushir/coding/codeforces/equal_or_not.cpp","group":"local","local":true}
