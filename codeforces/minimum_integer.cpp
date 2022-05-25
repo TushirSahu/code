@@ -24,28 +24,38 @@ return true;
 bool poweroftwo(ll x) {
 return x && (!(x & (x-1)));
 }
-    
+
+  void solve(){
+      ll l,r,d;
+cin>>l>>r>>d;
+// while()
+ll ans=0;
+if(d<l){
+    cout<<d<<nl;
+    return;
+}
+else{
+ll x=r+d;
+x-=x%d;
+// ll ans=res+r;
+cout<<x<<nl;
+return;
+
+  }  
+  }
     
 int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
  #ifndef ONLINE_JUDGE
-        freopen("/home/tushir/coding/inputf.txt", "r", stdin);
-        freopen("/home/tushir/coding/outputf.txt", "w", stdout);
+        freopen("/home/tushir/coding/inputf.in", "r", stdin);
+        freopen("/home/tushir/coding/outputf.in", "w", stdout);
     #endif
 int t;
 cin>>t;
 while(t--){
-string s;
-cin>>s;
-int cnt0=0,cnt1=0;
-for (int i = 0; i < s.length(); i++)
-{
-    if(s[i]=='0') cnt0++;
-    else cnt1++;
-}
-if(min(cnt0,cnt1)%2==1) cout<<"DA\n";
-else cout<<"NET\n";
+solve();
+
 
 }
 return 0;

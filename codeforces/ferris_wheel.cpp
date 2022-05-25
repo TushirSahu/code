@@ -30,23 +30,40 @@ int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
  #ifndef ONLINE_JUDGE
-        freopen("/home/tushir/coding/inputf.txt", "r", stdin);
-        freopen("/home/tushir/coding/outputf.txt", "w", stdout);
+        freopen("/home/tushir/coding/inputf.in", "r", stdin);
+        freopen("/home/tushir/coding/outputf.in", "w", stdout);
     #endif
-int t;
-cin>>t;
-while(t--){
-string s;
-cin>>s;
-int cnt0=0,cnt1=0;
-for (int i = 0; i < s.length(); i++)
+// int t;
+// cin>>t;
+// while(t--){
+ll n,x;
+cin>>n>>x;
+ll a[n];
+for (int i = 0; i < n; i++)
 {
-    if(s[i]=='0') cnt0++;
-    else cnt1++;
+    cin>>a[i];
 }
-if(min(cnt0,cnt1)%2==1) cout<<"DA\n";
-else cout<<"NET\n";
+
+sort(a,a+n);
+int i=0;
+int j=n-1;
+int cnt=0;
+while(i<=j){
+//    int sum=;
+   if(a[i]+a[j]>x) {
+       j--;
+   }
+   else {
+       i++;
+       j--;
+   }
+       cnt++;
+   
+
 
 }
+cout<<cnt<<nl;
+
+// }
 return 0;
 }

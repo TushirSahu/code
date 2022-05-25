@@ -24,29 +24,47 @@ return true;
 bool poweroftwo(ll x) {
 return x && (!(x & (x-1)));
 }
-    
+void solve(){
+    string s;
+cin>>s;
+if(s.length()<6){
+    cout<<"no\n";
+    return;
+}
+int cnt1=0;
+int cnt0=0;
+for (int i = 0; i < s.length(); i++)
+{
+   if(s[i]=='1') cnt1=1;
+   if(s[i]=='0' && cnt1==1) cnt0++;
+}
+// cout<<cnt0<<nl/
+// if(cnt1==0 && s[0]!='1'){
+//     cout<<"no\n";
+//     return;
+// }
+if(cnt0>=6 ){
+    cout<<"yes\n";
+    return;
+}
+
+cout<<"no\n";
+}    
     
 int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
  #ifndef ONLINE_JUDGE
-        freopen("/home/tushir/coding/inputf.txt", "r", stdin);
-        freopen("/home/tushir/coding/outputf.txt", "w", stdout);
+        freopen("/home/tushir/coding/inputf.in", "r", stdin);
+        freopen("/home/tushir/coding/outputf.in", "w", stdout);
     #endif
-int t;
-cin>>t;
-while(t--){
-string s;
-cin>>s;
-int cnt0=0,cnt1=0;
-for (int i = 0; i < s.length(); i++)
-{
-    if(s[i]=='0') cnt0++;
-    else cnt1++;
-}
-if(min(cnt0,cnt1)%2==1) cout<<"DA\n";
-else cout<<"NET\n";
+// int t;
+// cin>>t;
+// while(t--){
 
-}
+// }
+solve();
+
+
 return 0;
 }

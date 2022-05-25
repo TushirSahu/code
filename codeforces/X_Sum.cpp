@@ -30,22 +30,46 @@ int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
  #ifndef ONLINE_JUDGE
-        freopen("/home/tushir/coding/inputf.txt", "r", stdin);
-        freopen("/home/tushir/coding/outputf.txt", "w", stdout);
+        freopen("/home/tushir/coding/inputf.in", "r", stdin);
+        freopen("/home/tushir/coding/outputf.in", "w", stdout);
     #endif
 int t;
 cin>>t;
 while(t--){
-string s;
-cin>>s;
-int cnt0=0,cnt1=0;
-for (int i = 0; i < s.length(); i++)
+ll n,m;
+cin>>n>>m;
+int a[n][m];
+for (int i = 0; i < n; i++)
 {
-    if(s[i]=='0') cnt0++;
-    else cnt1++;
+  for (int j = 0; j <m; j++)
+  {
+      cin>>a[i][j];
+  }
 }
-if(min(cnt0,cnt1)%2==1) cout<<"DA\n";
-else cout<<"NET\n";
+ll maxi=INT_MIN;
+ll sum=0;
+map<ll,ll> m1,m2;
+for (int i = 0; i < n; i++)
+{
+  for (int j = 0; j < m; j++)
+  {
+    m1[i+j]+=a[i][j];
+    m2[i-j]+=a[i][j];
+      //  maxi=max(maxi,m1[i+j]+m2[i-j]-a[i][j]);
+  }
+for (int i = 0; i < n; i++)
+{
+  for (int j = 0;j< m; j++)
+  {
+    maxi=max(maxi,m1[i+j]+m2[i-j]-a[i][j]);
+  }
+  
+}
+
+
+}
+cout<<maxi<<nl;                                       
+
 
 }
 return 0;

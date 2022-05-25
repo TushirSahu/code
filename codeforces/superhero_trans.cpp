@@ -25,28 +25,34 @@ bool poweroftwo(ll x) {
 return x && (!(x & (x-1)));
 }
     
-    
+bool CheckVowel(char c){
+    if(c=='a' || c=='e'|| c=='i'|| c=='o'|| c=='u') return true;
+    return false;
+}
 int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
  #ifndef ONLINE_JUDGE
-        freopen("/home/tushir/coding/inputf.txt", "r", stdin);
-        freopen("/home/tushir/coding/outputf.txt", "w", stdout);
+        freopen("/home/tushir/coding/inputf.in", "r", stdin);
+        freopen("/home/tushir/coding/outputf.in", "w", stdout);
     #endif
-int t;
-cin>>t;
-while(t--){
-string s;
-cin>>s;
-int cnt0=0,cnt1=0;
-for (int i = 0; i < s.length(); i++)
+string s,t;
+cin>>s>>t;
+ll n=s.size();
+bool flag=true;
+for (int i = 0; i < n; i++)
 {
-    if(s[i]=='0') cnt0++;
-    else cnt1++;
+  if((CheckVowel(s[i])==false && CheckVowel(t[i])==false)|| (CheckVowel(s[i])==true && CheckVowel(t[i])==true)){
+      continue;
+  }
+  else {
+      flag=false;
+      break;
+  }
 }
-if(min(cnt0,cnt1)%2==1) cout<<"DA\n";
-else cout<<"NET\n";
+if(s.size()!=t.size()) cout<<"no\n";
+else if(flag) cout<<"yes\n";
+else cout<<"no\n";
 
-}
-return 0;
+return 0;/* code */
 }

@@ -5,7 +5,7 @@ typedef long long ll;
 typedef vector<ll> ve;
 #define mod 1000000007
 #define nl "\n"
-#define all(v) v.begin(),v.end()
+#define all(v) v.begin(),v.end()14
 #define pb push_back
 #define eb emplace_back
     
@@ -30,22 +30,40 @@ int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
  #ifndef ONLINE_JUDGE
-        freopen("/home/tushir/coding/inputf.txt", "r", stdin);
-        freopen("/home/tushir/coding/outputf.txt", "w", stdout);
+        freopen("/home/tushir/coding/inputf.in", "r", stdin);
+        freopen("/home/tushir/coding/outputf.in", "w", stdout);
     #endif
 int t;
 cin>>t;
 while(t--){
-string s;
-cin>>s;
-int cnt0=0,cnt1=0;
-for (int i = 0; i < s.length(); i++)
+ll n,m;
+cin>>n>>m;
+vector<string > s(n);
+for (int i = 0; i < n; i++)
 {
-    if(s[i]=='0') cnt0++;
-    else cnt1++;
+   cin>>s[i];
 }
-if(min(cnt0,cnt1)%2==1) cout<<"DA\n";
-else cout<<"NET\n";
+
+int mini=1e7;
+for (int i = 0; i < n; i++)
+{
+   for (int j = i+1; j< n; j++)
+   {
+       int diff=0;
+      for (int k = 0; k< m ; k++)
+      {
+         diff+=abs(s[i][k]-s[j][k]);
+         
+      }
+      mini=min(diff,mini);
+   }
+    
+   
+}
+
+
+cout<<mini<<nl;
+
 
 }
 return 0;
